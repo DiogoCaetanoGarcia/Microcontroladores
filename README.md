@@ -1,4 +1,4 @@
-# Microprocessadores e Microcontroladores
+# Microprocessadores e Microcontroladores - Plano de Ensino
 
 - Repositório da disciplina da Universidade de Brasília: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383

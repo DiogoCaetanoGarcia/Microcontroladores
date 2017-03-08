@@ -65,9 +65,9 @@ Os alunos formarão duplas para montar um projeto final de maior dificuldade, co
 Os pontos de controle serão prévias do projeto final. Cada dia de atraso na apresentação dos pontos de controle acarreta na perda de 0,5 pontos da nota do mesmo. Serão esperados os seguintes resultados para cada ponto de controle:
 
 - PC1: proposta do projeto (justificativa, objetivos, requisitos, benefícios, revisão bibliográfica).
-- PC2: Protótipo funcional do projeto, utilizando as ferramentas mais básicas (Arduino para MSP430 - http://energia.nu/), bibliotecas prontas etc.
-- PC3: Refinamento do protótipo em linguagem C, acrescentando recursos básicos de sistema. É obrigatório acrescentar interrupções e uma sub-rotina significativa do código em Assembly. O uso de modos de baixo consumo é encorajado.
-- PC4: Refinamento do protótipo em linguagem C, acrescentando temporização bem definida do sistema.
+- PC2: protótipo funcional do projeto, utilizando as ferramentas mais básicas (Arduino para MSP430 - http://energia.nu/), bibliotecas prontas etc.
+- PC3: refinamento do protótipo em linguagem C, acrescentando recursos básicos de sistema. É obrigatório acrescentar interrupções e uma sub-rotina significativa do código em Assembly. O uso de modos de baixo consumo é encorajado.
+- PC4: refinamento do protótipo em linguagem C, acrescentando temporização bem definida do sistema.
 
 Todos os relatórios dos pontos de controle serão entregues através do mesmo repositório GitHub das respostas às perguntas em sala de aula. Crie uma pasta separada no repositório para a entrega dos pontos de controle. DEVERÁ HAVER SOMENTE UM ARQUIVO POR RELATÓRIO, EM FORMATO PDF. Em caso de cópias (integrais ou parciais), ambos os relatórios ficarão com nota ZERO. Os diferentes templates com formatação IEEE estão disponíveis em:
 

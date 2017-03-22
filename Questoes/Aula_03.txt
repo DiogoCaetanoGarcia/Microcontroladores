@@ -1,4 +1,4 @@
-Data: 17/03/2017
+Data: 22/03/2017
 
 1. Dada uma variável 'a' do tipo 'char' (um byte), escreva os trechos de código em C para:
 	(a) Somente setar o bit menos significativo de 'a'.

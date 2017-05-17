@@ -11,7 +11,7 @@ int main(void)
 	P1OUT &= ~LEDS;
 	P1DIR |= LEDS;
 	P1OUT |= BTN;
-	P1DIR &= BTN;
+	P1DIR &= ~BTN;
 	P1REN |= BTN;
 	if(IFG1 & WDTIFG)
 		P1OUT |= LED2;

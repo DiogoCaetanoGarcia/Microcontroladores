@@ -16,11 +16,11 @@ Data: 05/05/2017
        |   |
  F <== |   | ==> B
        |   |
- 	    ---  ==> G
+        ---  ==> G
        |   |
  E <== |   | ==> C
        |   |
- 	    ---  ==> D
+        ---  ==> D
 
 7. Multiplexe 2 displays de 7 segmentos para apresentar a seguinte sequência em loop:
 	00 - 11 - 22 - 33 - 44 - 55 - 66 - 77 - 88 - 99 - AA - BB - CC - DD - EE - FF

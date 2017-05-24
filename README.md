@@ -1,6 +1,6 @@
-# Microprocessadores e Microcontroladores - Plano de Ensino
-
 # Prezados, a segunda prova de Micro e Micro foi adiada para o dia 26/05, daqui a dois dias, devido à greve dos rodoviários. Por favor, avisem seus colegas. Estarei hoje em sala de aula para tirar dúvidas, caso apareçam.
+
+# Microprocessadores e Microcontroladores - Plano de Ensino
 
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383

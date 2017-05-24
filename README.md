@@ -1,5 +1,9 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
+Prezados, a segunda prova de Micro e Micro foi adiada para o dia 26/05, daqui a dois dias, devido à greve dos rodoviários. Por favor, avisem seus colegas.
+
+Estarei hoje em sala de aula para tirar dúvidas, caso apareçam.
+
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383
 - Código: 201383
@@ -12,7 +16,7 @@
 - 05/04/2017: entrega do primeiro ponto de controle
 - 19/04/2017: primeiro teste
 - 03/05/2017: entrega do segundo ponto de controle (adiado para o dia 10/05/2017)
-- 17/05/2017: segundo teste (adiado para o dia 24/05/2017)
+- 17/05/2017: segundo teste (adiado para o dia 26/05/2017)
 - 31/05/2017: entrega do terceiro ponto de controle
 - 14/06/2017: entrega do quarto ponto de controle
 - 28/06/2017: entrega do projeto final

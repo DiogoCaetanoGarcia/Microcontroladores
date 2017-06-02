@@ -15,7 +15,7 @@ int main(void)
 	while(1)
 	{
 		if((P1IN&BTN)==0)
-			P1OUT |= LEDS;
+			P1OUT = LEDS+BTN;
 		else
 			P1OUT &= ~LEDS;
 	}

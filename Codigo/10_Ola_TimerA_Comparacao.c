@@ -1,0 +1,28 @@
+#include <msp430g2553.h>
+
+#define LED BIT6
+#define PERIODO 1000
+#define DUTY_CYCLE 500
+
+int main(void)
+{
+	WDTCTL = WDTPW + WDTHOLD;
+	BCSCTL1 = CALBC1_1MHZ;
+	DCOCTL = CALDCO_1MHZ;
+	P1DIR |= LED;
+	P1SEL |= LED;
+	P1SEL2 &= ~LED;
+	TACCR0 = PERIODO-1;
+	TACCR1 = DUTY_CYCLE-1;
+	TACCTL1 = OUTMOD_7;
+	TACTL = TASSEL_2 + ID_3 + MC_1;
+	_BIS_SR(LPM0_bits);
+	return 0;
+}
+
+
+
+
+
+
+

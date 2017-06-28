@@ -125,6 +125,8 @@ void InitLCD(void)
 {
 	unsigned char CMNDS[] = {0x20, 0x14, 0xC, 0x6};
 	unsigned int i;
+	// Atraso de 10ms para o LCD fazer o boot
+	Atraso_us(10000);
 	SET_BITS(LCD_DIR, D4+D5+D6+D7+RS+E);
 	Send_Nibble(0x2, COMANDO, CMND_DLY);
 	for(i=0; i<4; i++)

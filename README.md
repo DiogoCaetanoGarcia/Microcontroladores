@@ -7,6 +7,8 @@
 - Créditos: 4
 - Turma: A
 - Locais e horários: Lab SS às 4as feiras e Sala S10 às 6as feiras, sempre das 14:00 às 15:50
+- Professor: Diogo Caetano Garcia
+- Email: diogogarcia(at)unb.br
 
 # Datas importantes
 

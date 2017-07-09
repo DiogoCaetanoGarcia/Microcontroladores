@@ -1,5 +1,6 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
+- REVISÃO DE NOTAS NA TERÇA-FEIRA, DIA 11/07/2017, DAS 9-12HS E DAS 14-17HS, NA MINHA SALA, NÚMERO 25.
 - Notas: https://docs.google.com/spreadsheets/d/1OnRfssGeNzx_no54vXndeIDsFVfnOAu6D0vUJnfHFZs/edit?usp=sharing
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383

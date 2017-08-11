@@ -1,4 +1,4 @@
-Para as questões 2 a 5, considere que as variáveis 'f', 'g', 'h', 'i' e 'j' são do tipo inteiro (16 bits na arquitetura do MSP430), e que o vetor 'A[]' é do tipo inteiro. Estas variáveis estão armazenadas nos seguintes registradores:
+Para as questões 2 a 5, considere que as variáveis `f`, `g`, `h`, `i` e `j` são do tipo inteiro (16 bits na arquitetura do MSP430), e que o vetor `A[]` é do tipo inteiro. Estas variáveis estão armazenadas nos seguintes registradores:
 	f: R4
 	g: R5
 	h: R6
@@ -17,17 +17,25 @@ Utilize os registradores R11, R12, R13, R14 e R15 para armazenar valores tempor�
 
 2. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
-	if(i>j) f = g+h+10;
-	else f = g-h-10;
+```C
+if(i>j) f = g+h+10;
+else f = g-h-10;
+```
 
 3. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
-	while(save[i]!=k) i++;
+```C
+while(save[i]!=k) i++;
+```
 
 4. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
-	for(i=0; i<100; i++) A[i] = i*2;
+```C
+for(i=0; i<100; i++) A[i] = i*2;
+```
 
 5. "Traduza" o seguinte trecho de código em C para o assembly do MSP430:
 
-	for(i=99; i>=0; i--) A[i] = i*2;
+```C
+for(i=99; i>=0; i--) A[i] = i*2;
+```

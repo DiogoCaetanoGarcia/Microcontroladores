@@ -3,9 +3,10 @@
 2. O que são sistemas microprocesssados?
 
 3. Apresente aplicações de sistemas embarcados:
-	(a) Para a indústria automotiva;
-	(b) Para eletrodomésticos;
-	(c) Para automação industrial.
+
+	1. Para a indústria automotiva;
+	2. Para eletrodomésticos;
+	3. Para automação industrial.
 
 4. Cite arquiteturas possíveis e as diferenças entre elas.
 

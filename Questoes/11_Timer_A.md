@@ -1,5 +1,3 @@
-Data: 12/05/2017
-
 1. Defina a função void Atraso(volatile unsigned int x); que fornece um atraso de 'x' milissegundos. Utilize o Timer_A para a contagem de tempo, e assuma que o SMCLK já foi configurado para funcionar a 1 MHz. Esta função poderá ser utilizada diretamente nas outras questões desta prova.
 
 2. Pisque os LEDs da Launchpad numa frequência de 100 Hz.

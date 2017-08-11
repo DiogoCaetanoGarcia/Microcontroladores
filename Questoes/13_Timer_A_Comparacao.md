@@ -1,5 +1,3 @@
-Data: 02/06/2017
-
 Para todas as questões abaixo, utilize o modo de comparação do Timer A.
 
 1. Para os itens abaixo, confira a diferença no brilho do LED.

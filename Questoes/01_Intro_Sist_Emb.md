@@ -1,5 +1,3 @@
-Data: 08/03/2017
-
 1. O que são sistemas embarcados?
 
 2. O que são sistemas microprocesssados?

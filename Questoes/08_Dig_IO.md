@@ -1,5 +1,3 @@
-Data: 26/04/2017
-
 Para todas as questões, utilize os LEDs e/ou os botões da placa Launchpad do MSP430.
 
 1. Escreva um código em C que pisca os LEDs ininterruptamente.

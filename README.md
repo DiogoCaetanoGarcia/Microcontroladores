@@ -1,25 +1,23 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
-- REVISÃO DE NOTAS NA TERÇA-FEIRA, DIA 11/07/2017, DAS 9-12HS E DAS 14-17HS, NA MINHA SALA, NÚMERO 25.
-- Notas: https://docs.google.com/spreadsheets/d/1OnRfssGeNzx_no54vXndeIDsFVfnOAu6D0vUJnfHFZs/edit?usp=sharing
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383
 - Código: 201383
 - Créditos: 4
 - Turma: A
-- Locais e horários: Lab SS às 4as feiras e Sala S10 às 6as feiras, sempre das 14:00 às 15:50
+- Locais e horários: Lab SS às 4as e 6as feiras, sempre das 14:00 às 15:50
 - Professor: Diogo Caetano Garcia
 - Email: diogogarcia(at)unb.br
 
 # Datas importantes
 
-- 05/04/2017: entrega do primeiro ponto de controle
-- 19/04/2017: primeiro teste
-- 03/05/2017: entrega do segundo ponto de controle (adiado para o dia 10/05/2017)
-- 17/05/2017: segundo teste (adiado para o dia 26/05/2017)
-- 31/05/2017: entrega do terceiro ponto de controle (adiado para o dia 07/06/2017)
-- 14/06/2017: entrega do quarto ponto de controle (adiado para o dia 21/06/2017)
-- 28/06/2017: entrega do projeto final (adiado para o dia 05/07/2017)
+- 06/09/2017: entrega do primeiro ponto de controle
+- 20/09/2017: primeiro teste
+- 04/10/2017: entrega do segundo ponto de controle
+- 18/10/2017: segundo teste
+- 01/11/2017: entrega do terceiro ponto de controle
+- 17/11/2017: entrega do quarto ponto de controle
+- 29/11/2017: entrega do projeto final
 
 # Objetivos
 
@@ -45,7 +43,7 @@ Aulas divididas de acordo com a técnica Pomodoro, com 3 períodos de 25 a 30 mi
 
 Dentro do 2o e do 3o períodos, cada aluno deverá desenvolver ao máximo suas respostas, aproveitando o tempo disponível à exaustão, como esperado na técnica Pomodoro.
 
-Todas as respostas deverão ser armazenadas em um repositório GitHub público, no mesmo dia em que as questões forem colocadas. Utilize arquivos diferentes para as respostas, separando-as por data. As respostas às questões poderão ser usadas pelo aluno durante a prova, especialmente funções em C para exercícios práticos. Sendo assim, organize bem o seu repositório.
+Todas as respostas deverão ser armazenadas em um repositório GitHub público, no mesmo dia em que as questões forem colocadas. Utilize arquivos diferentes para as respostas, separando-as por data. As respostas às questões poderão ser usadas pelo aluno durante a prova, especialmente funções em C para exercícios práticos. Sendo assim, organize bem o seu repositório, com pastas individuais nomeadas "1_Respostas", "2_PCs" e "3_Trabalho" para guardar as respostas das aulas, os pontos de controle e o trabalho final, respectivamente.
 
 Será utilizada a placa Launchpad do MSP430 (http://www.ti.com/tool/msp-exp430g2) em toda a disciplina.
 

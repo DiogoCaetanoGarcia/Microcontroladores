@@ -41,9 +41,9 @@ Aulas divididas de acordo com a técnica Pomodoro, com 3 períodos de 25 a 30 mi
 - 2o período: alunos responderão a perguntas teóricas propostas pelo professor;
 - 3o período: alunos responderão a perguntas práticas propostas pelo professor.
 
-Dentro do 2o e do 3o períodos, cada aluno deverá desenvolver ao máximo suas respostas, aproveitando o tempo disponível à exaustão, como esperado na técnica Pomodoro.
+Dentro do 2o e do 3o períodos, cada aluno deverá desenvolver ao máximo suas respostas, aproveitando o tempo disponível à exaustão, como esperado na técnica Pomodoro. As datas de entrega das respostas serão os fins de semana correspondentes às aulas.
 
-Todas as respostas deverão ser armazenadas em um repositório GitHub público, no mesmo dia em que as questões forem colocadas. Utilize arquivos diferentes para as respostas, separando-as por data. As respostas às questões poderão ser usadas pelo aluno durante a prova, especialmente funções em C para exercícios práticos. Sendo assim, organize bem o seu repositório, com pastas individuais nomeadas "1_Respostas", "2_PCs" e "3_Trabalho" para guardar as respostas das aulas, os pontos de controle e o trabalho final, respectivamente.
+Todas as respostas deverão ser armazenadas em um repositório GitHub público. Utilize arquivos diferentes para as respostas, separando-as por data. Organize bem o seu repositório, com pastas individuais nomeadas **1_Respostas**, **2_PCs** e **3_Trabalho** para guardar as respostas das aulas, os pontos de controle e o trabalho final, respectivamente.
 
 Será utilizada a placa Launchpad do MSP430 (http://www.ti.com/tool/msp-exp430g2) em toda a disciplina.
 

@@ -11,9 +11,9 @@
 #define D4 BIT0
 #define D5 BIT1
 #define D6 BIT2
-#define D7 BIT3
-#define RS BIT4
-#define E  BIT5
+#define D7 BIT4
+#define RS BIT6
+#define E  BIT7
 #define DADOS 1
 #define COMANDO 0
 #define CMND_DLY 1000

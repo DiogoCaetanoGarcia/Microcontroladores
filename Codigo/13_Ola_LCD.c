@@ -11,9 +11,9 @@
 #define D4 BIT0
 #define D5 BIT1
 #define D6 BIT2
-#define D7 BIT4
-#define RS BIT6
-#define E  BIT7
+#define D7 BIT3
+#define RS BIT4
+#define E  BIT5
 #define DADOS 1
 #define COMANDO 0
 #define CMND_DLY 1000
@@ -110,8 +110,7 @@ void Send_Int(int n)
 		Send_Data('-');
 		n = -n;
 	}
-	for(casa = 1; casa<=n; casa *= 10);
-	casa /= 10;
+	for(casa = 10000; casa>n; casa /= 10);
 	while(casa>0)
 	{
 		dig = (n/casa);

@@ -20,8 +20,9 @@ Conexoes:
 #include <msp430g2553.h>
 #include <legacymsp430.h>
 
-#define AD_IN BIT0
-#define AD_INCH INCH_0
+#define AD_IN BIT1
+#define AD_INCH INCH_1
+#define LED BIT0
 #define SCL BIT6
 #define SDA BIT7
 

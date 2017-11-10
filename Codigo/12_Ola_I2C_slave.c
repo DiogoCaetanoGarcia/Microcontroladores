@@ -11,6 +11,7 @@ acordo com o seguinte protocolo:
 
 Conexoes:
    P1.0: LED vermelho da placa Launchpad
+   P1.1: sinal analogico entre 0 e Vcc
    P1.3: botao da placa Launchpad
    P1.6: conexao clock I2C (SCL)
    P1.7: conexao dados I2C (SDA)

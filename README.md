@@ -1,6 +1,6 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
-- **ATENÇÃO!!! As menções da disciplina foram definidas: https://goo.gl/RKz21C. A revisão de notas será realizada na terça-feira, dia 12/12, das 14 às 17hs, na sala do professor, número 25.**
+- **ATENÇÃO!!! Por um erro de cálculo na planilha, as menções da disciplina foram ATUALIZADAS: https://goo.gl/RKz21C. A revisão de notas será realizada na terça-feira, dia 12/12, das 14 às 17hs, na sala do professor, número 25.**
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383
 - Código: 201383

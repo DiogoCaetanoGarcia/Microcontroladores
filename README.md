@@ -1,6 +1,5 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
-- **ATENÇÃO!!! Por um erro de cálculo na planilha, as menções da disciplina foram ATUALIZADAS: https://goo.gl/RKz21C. A revisão de notas será realizada na terça-feira, dia 12/12, das 14 às 17hs, na sala do professor, número 25.**
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383
 - Código: 201383
@@ -12,13 +11,13 @@
 
 # Datas importantes
 
-- 06/09/2017: entrega do primeiro ponto de controle
-- 20/09/2017: primeiro teste
-- 04/10/2017: entrega do segundo ponto de controle
-- 18/10/2017: segundo teste
-- 01/11/2017: entrega do terceiro ponto de controle
-- 17/11/2017: entrega do quarto ponto de controle
-- 29/11/2017: entrega do projeto final
+- 04/04/2018: entrega do primeiro ponto de controle
+- 18/04/2018: primeiro teste
+- 02/05/2018: entrega do segundo ponto de controle
+- 16/05/2018: segundo teste
+- 30/05/2018: entrega do terceiro ponto de controle
+- 13/06/2018: entrega do quarto ponto de controle
+- 27/06/2018: entrega do projeto final
 
 # Objetivos
 

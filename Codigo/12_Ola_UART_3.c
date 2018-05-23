@@ -1,18 +1,8 @@
 /* 
 
 Código para o MSP430 medir a tensão analogica
-no pino P1.0 a cada 10 ms, e enviar o resultado
-via porta serial assincrona UART. Como o 
-conversor AD tem 10 bits e a UART envia 1 byte
-por vez, o MSP430 envia primeiro os 8 bits menos
-significativos da conversao AD, e depois os dois
-mais significativos. Ou seja, sao enviados dois
-bytes a cada conversao.
-
-O LED2 da placa pisca a frequencia de 1 Hz.
-
-Enquanto o botao da placa for pressionado, o MSP430
-nao manda as leituras AD, e o LED2 eh mantido aceso.
+no pino P1.0 sempre que o usuário pressionar o botão P1.3,
+e enviar o resultado via porta serial assincrona UART.
 
 Conexoes:
    P1.0: sinal analogico entre 0 e Vcc

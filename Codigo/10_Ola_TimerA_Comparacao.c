@@ -1,8 +1,8 @@
 #include <msp430g2553.h>
 
 #define LED BIT6
-#define PERIODO 1000
-#define DUTY_CYCLE 500
+#define PERIODO 50000
+#define DUTY_CYCLE 25000
 
 int main(void)
 {

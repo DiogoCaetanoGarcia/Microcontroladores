@@ -1,4 +1,4 @@
-/* 
+/*
 
 Codigo para o MSP430 funcionar como mestre I2C que
 pede dados a outro MSP430 (escravo I2C) de acordo
@@ -65,10 +65,10 @@ void init_I2C()
 void Transmit(unsigned int slave_address, unsigned char data[], unsigned int len)
 {
 	volatile unsigned int i;
-	
+
 	while(UCB0CTL1 & UCTXSTP);             // Ensure stop condition got sent
 	UCB0I2CSA = slave_address;
-	UCB0CTL1 |= UCTR; 
+	UCB0CTL1 |= UCTR;
 	UCB0CTL1 |= UCTXSTT;             // I2C TX, start condition
 	//P1OUT |= LED;
 	if(len==1)
@@ -100,7 +100,7 @@ void Receive(unsigned int slave_address, unsigned char data[], unsigned int len)
 	UCB0CTL1 &= ~UCTR ;                     // Clear UCTR
 	UCB0CTL1 |= UCTXSTT;                    // I2C start condition
 	while(UCB0CTL1 & UCTXSTT);             // Start condition sent?
-	
+
 	for(i=0; i<len; i++)
 	{
 		if((len-i)==1)
@@ -139,7 +139,7 @@ void Atraso(volatile unsigned int t)
 
 interrupt(PORT1_VECTOR) P1_ISR(void)
 {
-	volatile unsigned int MSP430_slave = 0xAD;
+	volatile unsigned int MSP430_slave = 0x3D;
 	unsigned char t = 0x55, rcv[2];
 	unsigned int d=0;
 	while((P1IN & BTN)==0);
@@ -148,7 +148,6 @@ interrupt(PORT1_VECTOR) P1_ISR(void)
 	Receive(MSP430_slave, rcv, 2);
 	d = (unsigned int)rcv[1];
 	d = (d<<8) | ((unsigned int)rcv[0]);
-	//P1OUT &= ~LED;
 	if(d>1020)
 	{
 		Atraso(5000);

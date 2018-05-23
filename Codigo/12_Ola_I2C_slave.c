@@ -1,4 +1,4 @@
-/* 
+/*
 
 Codigo para o MSP430 funcionar como escravo I2C de
 acordo com o seguinte protocolo:
@@ -39,7 +39,7 @@ int main(void)
 	DCOCTL = CALDCO_1MHZ;
 	init_P1();
 	init_AD();
-	init_I2C(0xAD);
+	init_I2C(0x3D);
 	_BIS_SR(LPM0_bits | GIE);
 	return 0;
 }
@@ -99,7 +99,7 @@ interrupt(USCIAB0TX_VECTOR) USCIAB0TX_ISR(void)
 			Transmit(d_send, 2);
 			UCB0STAT &= ~(UCSTPIFG | UCSTTIFG);
 		}
-		P1OUT &= ~LED;	
+		P1OUT &= ~LED;
 	}
 	IFG2 &= ~(UCB0TXIFG|UCB0RXIFG);
 }

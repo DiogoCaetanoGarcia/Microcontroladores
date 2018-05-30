@@ -8,6 +8,8 @@
 #define WHILE_SET(REGS, BIT_NUMS) while(REGS & (BIT_NUMS))
 #define WHILE_RESET(REGS, BIT_NUMS) while((REGS & (BIT_NUMS))==0)
 
+#define LCD_OUT P2OUT
+#define LCD_DIR P2DIR
 #define D4 BIT0
 #define D5 BIT1
 #define D6 BIT2
@@ -19,8 +21,6 @@
 #define CMND_DLY 1000
 #define DATA_DLY 1000
 #define BIG_DLY  20000
-#define LCD_OUT P2OUT
-#define LCD_DIR P2DIR
 #define CLR_DISPLAY  Send_Byte(1, COMANDO, BIG_DLY)
 #define POS0_DISPLAY Send_Byte(2, COMANDO, BIG_DLY)
 
@@ -38,16 +38,16 @@ int main(void)
 	WDTCTL = WDTHOLD + WDTPW;
 	BCSCTL1 = CALBC1_1MHZ;
 	DCOCTL = CALDCO_1MHZ;
-	RESET_BITS(P1DIR, BTN);
+	P1DIR &= ~BTN;
 	P1OUT = P1REN = BTN;
 	InitLCD();
 	Send_String("Pressione BTN");
 	while(1)
 	{
 		// Espera o botao ser pressionado
-		WHILE_SET(P1IN, BTN);
+		while(P1IN&BTN);
 		// Espera o botao ser solto
-		WHILE_RESET(P1IN, BTN);
+		while((P1IN&BTN)==0);
 		// Transmite a string
 		CLR_DISPLAY;
 		POS0_DISPLAY;
@@ -68,13 +68,14 @@ void Atraso_us(volatile unsigned int us)
 
 void Send_Nibble(volatile unsigned char nibble, volatile unsigned char dados, volatile unsigned int microsegs)
 {
-	SET_BITS(LCD_OUT, E);
-	SET_RESET_BITS(LCD_OUT, RS, (dados==DADOS));
-	SET_RESET_BITS(LCD_OUT, D4, (nibble & BIT0));
-	SET_RESET_BITS(LCD_OUT, D5, (nibble & BIT1));
-	SET_RESET_BITS(LCD_OUT, D6, (nibble & BIT2));
-	SET_RESET_BITS(LCD_OUT, D7, (nibble & BIT3));
-	RESET_BITS(LCD_OUT, E);
+	LCD_OUT |= E;
+	LCD_OUT &= ~(RS + D4 + D5 + D6 + D7);
+	LCD_OUT |= RS*(dados==DADOS) +
+		D4*((nibble & BIT0)>0) +
+		D5*((nibble & BIT1)>0) +
+		D6*((nibble & BIT2)>0) +
+		D7*((nibble & BIT3)>0);
+	LCD_OUT &= ~E;
 	Atraso_us(microsegs);
 }
 
@@ -126,7 +127,7 @@ void InitLCD(void)
 	unsigned int i;
 	// Atraso de 10ms para o LCD fazer o boot
 	Atraso_us(10000);
-	SET_BITS(LCD_DIR, D4+D5+D6+D7+RS+E);
+	LCD_DIR |= D4+D5+D6+D7+RS+E;
 	Send_Nibble(0x2, COMANDO, CMND_DLY);
 	for(i=0; i<4; i++)
 		Send_Byte(CMNDS[i], COMANDO, CMND_DLY);

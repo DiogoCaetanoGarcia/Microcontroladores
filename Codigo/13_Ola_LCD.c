@@ -1,13 +1,6 @@
 #include <msp430g2553.h>
 
 #define BTN BIT3
-
-//#define SET_BITS(REGS, BIT_NUMS) REGS |= BIT_NUMS
-//#define RESET_BITS(REGS, BIT_NUMS) REGS &= ~(BIT_NUMS)
-//#define SET_RESET_BITS(REGS, BIT_NUMS, VAL) if(VAL) SET_BITS(REGS, BIT_NUMS); else RESET_BITS(REGS, BIT_NUMS)
-//#define WHILE_SET(REGS, BIT_NUMS) while(REGS & (BIT_NUMS))
-//#define WHILE_RESET(REGS, BIT_NUMS) while((REGS & (BIT_NUMS))==0)
-
 #define LCD_OUT P2OUT
 #define LCD_DIR P2DIR
 #define D4 BIT0

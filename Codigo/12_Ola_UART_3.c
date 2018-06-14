@@ -47,7 +47,7 @@ int main(void)
 	Init_P1();
 	Init_AD();
 	Init_UART(BAUD_9600);
-	
+
 	_BIS_SR(LPM4_bits+GIE);
 	return 0;
 }

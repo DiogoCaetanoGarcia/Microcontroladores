@@ -10,7 +10,7 @@
 //
 // (O datasheet indica estes valores,
 // mas experimentalmente verificou-se
-// faxas de 700us a 2,5 ms)
+// faxas de 650us a 2,5 ms)
 //
 // Ligue um potenciometro a Vcc, GND e P1.1
 // Ligue pino PWM do SG90 a P1.6

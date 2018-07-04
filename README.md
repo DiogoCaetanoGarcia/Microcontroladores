@@ -1,5 +1,6 @@
 # Microprocessadores e Microcontroladores - Plano de Ensino
 
+- **Notas das duas provas: https://docs.google.com/spreadsheets/d/1N3INpMJp0XAF44n4lJ6rdwtJmxTxw025nS4UiCCUbQs/edit?usp=sharing**
 - **Notas e comentários do 1o Ponto de Controle: https://docs.google.com/spreadsheets/d/1ko0BqwfT8uPgXxI3doVsMtFuDL96hevU31ZVwyz5Uz8/edit?usp=sharing**
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383

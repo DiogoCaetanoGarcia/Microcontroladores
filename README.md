@@ -1,26 +1,23 @@
-# Microprocessadores e Microcontroladores - Plano de Ensino
+# Eletrônica Embarcada - Plano de Ensino
 
-- **ATENÇÃO! Revisão de notas amanhã, dia 11 de julho, das 15 às 18hs na minha sala, número 25.**
-- **NOTAS FINAIS: https://docs.google.com/spreadsheets/d/1N3INpMJp0XAF44n4lJ6rdwtJmxTxw025nS4UiCCUbQs/edit?usp=sharing**
-- **Notas e comentários do 1o Ponto de Controle: https://docs.google.com/spreadsheets/d/1ko0BqwfT8uPgXxI3doVsMtFuDL96hevU31ZVwyz5Uz8/edit?usp=sharing**
-- Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=201383
-- Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=201383
-- Código: 201383
-- Créditos: 4
+- Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
+- Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871
+- Código: 120871
+- Créditos: 6
 - Turma: A
-- Locais e horários: Lab SS às 4as e 6as feiras, sempre das 14:00 às 15:50
+- Locais e horários: Lab SS às 2as, 4as e 6as feiras, sempre das 14:00 às 15:50
 - Professor: Diogo Caetano Garcia
 - Email: diogogarcia(at)unb.br
 
 # Datas importantes
 
-- 04/04/2018: entrega do primeiro ponto de controle
-- 18/04/2018: primeiro teste
-- 02/05/2018: entrega do segundo ponto de controle
-- 16/05/2018: segundo teste
-- 30/05/2018: entrega do terceiro ponto de controle (adiada para 06/06/2018)
-- 13/06/2018: entrega do quarto ponto de controle (adiada para 20/06/2018)
-- 27/06/2018: entrega do projeto final (adiada para 04/07/2018)
+- 05/09/2018: entrega do primeiro ponto de controle
+- 21/09/2018: primeiro teste
+- 05/10/2018: entrega do segundo ponto de controle
+- 19/10/2018: entrega do terceiro ponto de controle
+- 31/10/2018: segundo teste
+- 16/11/2018: entrega do quarto ponto de controle
+- 30/11/2018: entrega do projeto final
 
 # Objetivos
 

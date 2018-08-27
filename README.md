@@ -1,5 +1,7 @@
 # Eletrônica Embarcada - Plano de Ensino
 
+**PREZADOS ALUNOS, A TEXAS INSTRUMENTS AINDA DISPONIBILIZA UMA PLACA COM O MSP430G2553 NA SEGUINTE PÁGINA: http://www.ti.com/tool/MSP-EXP430G2ET**
+
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871
 - Código: 120871
@@ -45,7 +47,7 @@ Dentro do 2o e do 3o períodos, cada aluno deverá desenvolver ao máximo suas r
 
 Todas as respostas deverão ser armazenadas em um repositório GitHub público. Utilize arquivos diferentes para as respostas, separando-as por data. Organize bem o seu repositório, com pastas individuais nomeadas **1_Respostas**, **2_PCs** e **3_Trabalho** para guardar as respostas das aulas, os pontos de controle e o trabalho final, respectivamente.
 
-Será utilizada a placa Launchpad do MSP430 (http://www.ti.com/tool/msp-exp430g2) em toda a disciplina.
+Será utilizada a placa Launchpad do MSP430 (http://www.ti.com/tool/MSP-EXP430G2ET) em toda a disciplina.
 
 # Avaliação
 

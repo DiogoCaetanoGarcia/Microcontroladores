@@ -1,11 +1,5 @@
 # Eletrônica Embarcada - Plano de Ensino
 
-**Prezados alunos,**
-
-**Devido à comemoração dos 10 anos da FGA, não haverá aula amanhã, dia 24/08.**
-
-**Att., Prof. Diogo**
-
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871
 - Código: 120871

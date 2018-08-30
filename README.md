@@ -1,6 +1,8 @@
 # Eletrônica Embarcada - Plano de Ensino
 
-**PREZADOS ALUNOS, A TEXAS INSTRUMENTS AINDA DISPONIBILIZA UMA PLACA COM O MSP430G2553 NA SEGUINTE PÁGINA: http://www.ti.com/tool/MSP-EXP430G2ET**
+**PREZADOS ALUNOS, HAVERÁ AULA NORMALMENTE AMANHÃ, DIA 31/08, JÁ QUE A DEDETIZAÇÃO DA FGA OCORRERÁ PARTIR DAS 16HS.**
+
+**A TEXAS INSTRUMENTS AINDA DISPONIBILIZA UMA PLACA COM O MSP430G2553 NA SEGUINTE PÁGINA: http://www.ti.com/tool/MSP-EXP430G2ET**
 
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871

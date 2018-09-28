@@ -1,5 +1,7 @@
 # Eletrônica Embarcada - Plano de Ensino
 
+**Prezados alunos, seguem as notas do PC1 e meus comentários sobre os projetos: https://docs.google.com/spreadsheets/d/1ullID_6u3QnfVot5Xsr4glxMrQZ6d5-fHl85LO92cp4/edit?usp=sharing**
+
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871
 - Código: 120871

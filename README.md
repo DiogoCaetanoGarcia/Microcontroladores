@@ -79,6 +79,13 @@ Todos os relatórios dos pontos de controle serão entregues através do mesmo r
 - Unix LaTeX: http://goo.gl/p3ExfQ
 - Windows LaTeX: http://goo.gl/gAxi96
 
+Algumas dicas de projetos:
+
+- https://github.com/DiogoCaetanoGarcia/Microcontroladores/blob/master/Refs/Dicas%20para%20projetos.pdf
+- https://www.hackster.io/texasinstruments
+- https://university.ti.com/en/students/design-inspiration
+- https://www.youtube.com/playlist?list=PLISmVLHAZbTRPY5UB8qNBoabv4SGQ3h_M
+
 # Bibliografia
 
 Básica

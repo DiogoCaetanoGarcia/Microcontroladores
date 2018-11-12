@@ -22,7 +22,7 @@ int main (void)
 	
 	CAPD = BIT0;
 	CACTL2 = P2CA0;
-	CACTL1 = CARSEL + CAREF_1 + CAON;
+	CACTL1 = CARSEL + CAREF_2 + CAON;
 	
 	while(1)
 	{

@@ -41,21 +41,23 @@ int main(void)
 		TA1CTL |= TAIE;
 		while((IFG2 & UCA0RXIFG)==0);
 		c = UCA0RXBUF;
-		if(c=='1')
+		if((c=='0')||(c=='1'))
 		{
 			TA1CTL &= ~TAIE;
-			P1OUT |= LEDS;
-			Send_String("LEDs acesos!\r\n");
-		}
-		else if(c=='0')
-		{
-			TA1CTL &= ~TAIE;
-			P1OUT &= ~LEDS;
-			Send_String("LEDs apagados!\r\n");
+			if(c=='1')
+			{
+				P1OUT |= LEDS;
+				Send_String("LEDs acesos!\r\n");
+			}
+			else if(c=='0')
+			{
+				P1OUT &= ~LEDS;
+				Send_String("LEDs apagados!\r\n");
+			}
+			Atraso_ms(2000);
 		}
 		else
 			Send_String("Opcao invalida!\r\n");
-		Atraso_ms(2000);
 	}
 	return 0;
 }

@@ -20,7 +20,7 @@
 
 #define IN_AD BIT1
 #define IN_AD_CH INCH_1
-#define LED BIT6
+#define SERVO BIT6
 
 int main(void)
 {
@@ -29,9 +29,9 @@ int main(void)
 	BCSCTL1 = CALBC1_1MHZ;
 	DCOCTL  = CALDCO_1MHZ;
 
-	P1DIR |= LED;
-	P1SEL |= LED;
-	P1SEL2 &= ~LED;
+	P1DIR |= SERVO;
+	P1SEL |= SERVO;
+	P1SEL2 &= ~SERVO;
 	// Configura o canal 1 do Timer A em modo de comparacao
 	// com periodo de 20ms
 	TACCR0 = 20000-1;
@@ -62,9 +62,9 @@ interrupt(ADC10_VECTOR) ADC10_ISR(void)
 	n += 650.0;
 	TACCR1 = (unsigned int)n;
 #else
-	TACCR1 = 37*ADC10MEM;
+	TACCR1 = 37*ADC10MEM + 1023/2;
 	TACCR1 /= 1023;
 	TACCR1 *= 50;
-	TACCR1 += 700;
+	TACCR1 += 650; //700;
 #endif
 }

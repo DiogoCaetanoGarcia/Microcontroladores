@@ -1,9 +1,9 @@
 #include <msp430g2553.h>
 #include <legacymsp430.h>
 
-#define LED BIT6
+#define SERVO BIT6
 #define PERIODO 20000
-#define MIN_T  650 //1000
+#define MIN_T  500 //1000
 #define MAX_T 2500 //2000
 #define STEP_T  50
 
@@ -12,9 +12,9 @@ int main(void)
 	WDTCTL = WDTPW + WDTHOLD;
 	BCSCTL1 = CALBC1_1MHZ;
 	DCOCTL = CALDCO_1MHZ;
-	P1DIR |= LED;
-	P1SEL |= LED;
-	P1SEL2 &= ~LED;
+	P1DIR |= SERVO;
+	P1SEL |= SERVO;
+	P1SEL2 &= ~SERVO;
 	TACCR0 = PERIODO-1;
 	TACCR1 = MIN_T;
 	TACCTL1 = OUTMOD_7;

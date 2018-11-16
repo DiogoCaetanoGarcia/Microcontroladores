@@ -1,3 +1,8 @@
+// Codigo para ilustrar um kernel com
+// agendamento de 3 tarefas: tst1(),
+// tst2() e tst3(). Execute-o no computador,
+// e nao no MSP430.
+
 #include <stdio.h>
 
 // Tarefas

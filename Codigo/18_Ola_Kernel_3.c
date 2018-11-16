@@ -1,10 +1,11 @@
 // Codigo para acender 0 a 6 LEDs charliplexados
 // de acordo com a leitura do conversor A/D.
-// Utiliza agendamento de tarefas, com temporizacao
-// definida pelo tempo de processamento
-// de cada tarefa.
+// Utiliza agendamento de tarefas, com intervalo
+// de 832us entre cada uma. Assim, os LEDs
+// piscam a 100 Hz.
 
 #include <msp430g2553.h>
+#include <legacymsp430.h>
 
 #define IN_AD BIT4
 #define IN_AD_CH INCH_4
@@ -60,6 +61,8 @@ void InicializaKernel(void)
 {
 	ini = 0;
 	fim = 0;
+	TACCR0 = 832;
+	TACTL = TASSEL_2 + ID_0 + MC_1;
 }
 void AddKernel(ptrFunc newFunc)
 {
@@ -71,8 +74,10 @@ void AddKernel(ptrFunc newFunc)
 }
 void ExecutaKernel(void)
 {
+	TACTL |= TAIE;
 	while(1)
 	{
+		_BIS_SR(LPM0_bits+GIE);
 		(*pool[ini])();
 		ini = next(ini, fim);
 	}
@@ -106,4 +111,10 @@ int main(void)
 	AddKernel(Charlieplex_3);
 	ExecutaKernel();
 	return 0;
+}
+
+interrupt(TIMER0_A1_VECTOR) TA0_ISR(void)
+{
+	LPM0_EXIT;
+	TA0CTL &= ~TAIFG;
 }

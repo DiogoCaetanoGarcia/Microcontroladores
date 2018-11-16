@@ -75,12 +75,7 @@ void AddKernel(ptrFunc newFunc)
 void ExecutaKernel(void)
 {
 	TACTL |= TAIE;
-	while(1)
-	{
-		_BIS_SR(LPM0_bits+GIE);
-		(*pool[ini])();
-		ini = next(ini, fim);
-	}
+	_BIS_SR(LPM0_bits+GIE);
 }
 
 void Config_AD(void)
@@ -115,6 +110,7 @@ int main(void)
 
 interrupt(TIMER0_A1_VECTOR) TA0_ISR(void)
 {
-	LPM0_EXIT;
+	(*pool[ini])();
+	ini = next(ini, fim);
 	TA0CTL &= ~TAIFG;
 }

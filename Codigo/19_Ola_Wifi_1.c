@@ -32,7 +32,7 @@ void Send_String(char str[]);
 void Init_UART(unsigned int baud_rate_choice);
 void Atraso(volatile unsigned int ms);
 int cmp_str(char str1[], char str2[]);
-int Read_String(char str[]);
+int Read_String(char str[], int max_char);
 void Wait_Btn(void);
 
 int main(void)
@@ -65,7 +65,7 @@ int main(void)
 #ifdef _CONEXAO_OK_
 		_BIS_SR(LPM0_bits+GIE);
 #else
-		strlen = Read_String(wifi_str);
+		strlen = Read_String(wifi_str, 100);
 		if(cmp_str(wifi_str, "OK\r\n"))
 			P1OUT |= LED2;
 #endif
@@ -171,18 +171,20 @@ interrupt(USCIAB0RX_VECTOR) Receive_Data(void)
 }
 #endif
 
-int Read_String(char str[])
+int Read_String(char str[], int max_char)
 {
 	int i;
-	for(i=0; i>=0; i++)
+	for(i=0; i<max_char; i++)
 	{
 		while((IFG2&UCA0RXIFG)==0);
 		str[i] = UCA0RXBUF;
 		if(str[i]=='\n')
-			break;
+		{
+			str[++i] = '\0';
+			// Retorna o tamanho da string
+			return i;
+		}
 	}
-	str[++i] = '\0';
-	// Retorna o tamanho da string
 	return i;
 }
 

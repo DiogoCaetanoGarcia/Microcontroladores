@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>2</fileVersion>
+    <fileChecksum>3130895852</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\Debug\Obj\Exemplo_completo.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\Charlieplex.pbi</file>
+            <file>$PROJ_DIR$\global_vars.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Servo.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\AD.r43</file>
+            <file>$TOOLKIT_DIR$\inc\io430.h</file>
+            <file>$PROJ_DIR$\Kernel.h</file>
+            <file>$PROJ_DIR$\Charlieplex.h</file>
+            <file>$PROJ_DIR$\Servo.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\List\Exemplo_completo.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\Servo.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\Kernel.r43</file>
+            <file>$PROJ_DIR$\Debug\Obj\Button.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Charlieplex.r43</file>
+            <file>$TOOLKIT_DIR$\inc\io430g2553.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\Kernel.pbi</file>
+            <file>$PROJ_DIR$\Button.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Servo.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\Exemplo_completo.d43</file>
+            <file>$PROJ_DIR$\AD.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\lnk430g2553.xcl</file>
+            <file>$PROJ_DIR$\Button.h</file>
+            <file>$PROJ_DIR$\AD.c</file>
+            <file>$PROJ_DIR$\Charlieplex.c</file>
+            <file>$PROJ_DIR$\Kernel.c</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\Exemplo_completo.ulp</file>
+            <file>$PROJ_DIR$\Debug\Obj\Button.r43</file>
+            <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ULP430</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 23 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 26 6 17 30 7 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 6 17 26 7 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 6 17 30 7 9 8 24 26 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 17 6 7 9 8 24 26 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Servo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 9 6 17 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 6 17 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Exemplo_completo.d43</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 25 5 32 16 14 13 12 33</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\AD.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 24 6 17 30 9 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 6 17 24 9 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Charlieplex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 8 6 17 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 6 17 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Kernel.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 7 6 17 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 6 17 7</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>XLINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

@@ -10,11 +10,6 @@
 // desligado através do botão da placa
 // ligado ao pino P1.3.
 
-// PARA COMPILAR NO msp430-gcc E RODAR O CODIGO:
-//    msp430-gcc -Os -Wall -g -mmcu=msp430g2553 -o out.elf main.c Kernel.c Button.c Servo.c Charlieplex.c AD.c
-//    sudo mspdebug rf2500 "prog out.elf"
-//    rm out.elf
-
 #include "io430.h"
 #include "Kernel.h"
 #include "Servo.h"

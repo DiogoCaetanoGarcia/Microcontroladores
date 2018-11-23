@@ -10,7 +10,7 @@
 #define CPX2 BIT2
 #define CPXs (CPX0|CPX1|CPX2)
 
-unsigned int escala;
+extern unsigned int escala;
 
 void Charlieplex_3(void);
 

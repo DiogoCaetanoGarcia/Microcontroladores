@@ -5,8 +5,8 @@
 
 #define SERVO BIT6
 
-int liga_servo;
-unsigned int pos_servo; 
+extern int liga_servo;
+extern unsigned int pos_servo; 
 
 void Servo_On(void);
 void Servo_Off(void);

@@ -21,6 +21,7 @@
 #include "Button.h"
 #include "Charlieplex.h"
 #include "AD.h"
+#include "global_vars.h"
 
 int main(void)
 {

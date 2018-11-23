@@ -7,9 +7,9 @@
 typedef void(*ptrFunc)(void);
 
 #define BUFFSIZE 16
-ptrFunc pool[BUFFSIZE];
-int ini;
-int fim;
+extern ptrFunc pool[BUFFSIZE];
+extern int ini;
+extern int fim;
 
 #define next(elem, tam) ((elem+1)%tam)
 

@@ -1,6 +1,8 @@
 # Eletrônica Embarcada - Plano de Ensino
 
-**Prezados alunos, seguem as notas das provas https://docs.google.com/spreadsheets/d/1ullID_6u3QnfVot5Xsr4glxMrQZ6d5-fHl85LO92cp4/edit?usp=sharing**
+**Prezados alunos, seguem as menções finais: https://docs.google.com/spreadsheets/d/1ullID_6u3QnfVot5Xsr4glxMrQZ6d5-fHl85LO92cp4/edit?usp=sharing**
+
+**A REVISÃO DE NOTAS SERÁ FEITA AMANHÃ, DIA 11/12, DAS 14 ÀS 18 HS NA MINHA SALA, NÚMERO 25.**
 
 - Disciplina: https://matriculaweb.unb.br/graduacao/disciplina.aspx?cod=120871
 - Oferta: https://matriculaweb.unb.br/graduacao/oferta_dados.aspx?cod=120871
